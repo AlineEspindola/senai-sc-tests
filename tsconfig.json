@@ -1,9 +1,10 @@
 {
   "compilerOptions": {
+    "module": "Node16",
     "target": "es6",
     "lib": ["es6", "dom"],
     "types": ["cypress", "node"],
-    "moduleResolution": "node",
+    "moduleResolution": "node16",
     "esModuleInterop": true,
     "allowJs": true,
     "strict": true,

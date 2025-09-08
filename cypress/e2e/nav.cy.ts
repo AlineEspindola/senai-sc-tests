@@ -1,3 +1,5 @@
+import Navbar from '../components/Navbar/Navbar';
+
 describe('Testando Navbar', () => {
   beforeEach(() => {
     cy.viewport(1280, 720);
@@ -5,6 +7,7 @@ describe('Testando Navbar', () => {
   });
 
   it('Deve mostrar o menu corretamente', () => {
-    cy.contains('Institucional').should('be.visible');
+    Navbar.checkVisible();
+    Navbar.openDropdown();
   });
 });

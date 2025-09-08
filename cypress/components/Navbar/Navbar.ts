@@ -41,7 +41,6 @@ class Navbar implements INavbar {
     this.links.forEach((mainLink) => {
       mainLink.submenu?.forEach((submenuLink) => {
         cy.get(this.idComponent).contains(mainLink.label).click();
-        cy.log("submenulink: ", submenuLink)
         
         cy.contains(this.classDropdown, submenuLink).should("be.visible")
         cy.get(this.classDropdown).contains(submenuLink).click()

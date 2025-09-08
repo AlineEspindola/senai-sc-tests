@@ -1,4 +1,11 @@
 import Navbar from '../components/Navbar/Navbar';
+import linksData from "../fixtures/nav.json"
+
+const navbar = new Navbar({
+  idComponent: "#mega-menu",
+  linksMain: linksData.linksMain,
+  classLogo: ".fsi-nav__logo",
+});
 
 describe('Testando Navbar', () => {
   beforeEach(() => {
@@ -7,7 +14,7 @@ describe('Testando Navbar', () => {
   });
 
   it('Deve mostrar o menu corretamente', () => {
-    Navbar.checkVisible();
-    Navbar.openDropdown();
+    navbar.checkVisible();
+    navbar.openDropdown();
   });
 });

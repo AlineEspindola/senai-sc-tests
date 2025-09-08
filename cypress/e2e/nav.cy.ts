@@ -13,8 +13,11 @@ describe('Testando Navbar', () => {
     cy.visit('/');
   });
 
-  it('Deve mostrar o menu corretamente', () => {
+  it('[TC-NAV-001] Deve mostrar o Navbar corretamente', () => {
     navbar.checkVisible();
+  });
+
+  it('[TC-NAV-002] Deve mostrar o Dropdown corretamente', () => {
     navbar.openDropdown();
   });
 });

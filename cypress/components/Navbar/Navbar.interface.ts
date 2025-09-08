@@ -5,6 +5,7 @@ export interface INavbar extends IBaseComponent {
   links: NavItem[];
 
   openDropdown(): void;
+  clickDropdownLinks(): void;
 }
 
 export interface NavItem {

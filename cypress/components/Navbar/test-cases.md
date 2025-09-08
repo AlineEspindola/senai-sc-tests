@@ -71,3 +71,40 @@
 
 ### Observações:
 (Adicionar prints, links ou comentários)
+
+---
+
+# Caso de Teste: TC-NAV-003 – Funcionamento dos Redirecionamentos do Dropdown
+
+**Pré-condição:** Usuário acessa a aplicação e clica em um item do Navbar.  
+**Objetivo:** Verificar se os links do Dropdown redireciona as páginas corretas
+**Dados de Teste:** Nenhum.  
+
+---
+
+### Passos para execução:
+1. Acessar a página inicial.  
+
+---
+
+### Resultado Esperado:
+- Ao clicar em cada item do Dropdown no Navbar, deve redirecionar à uma página
+
+---
+
+### Resultado Obtido:
+- [ ] Sucesso  
+- [ ] Falha  
+- [ ] Bloqueado  
+
+---
+
+### Status:
+- [ ] Aprovado  
+- [ ] Reprovado  
+- [ ] Bloqueado  
+
+---
+
+### Observações:
+(Adicionar prints, links ou comentários)

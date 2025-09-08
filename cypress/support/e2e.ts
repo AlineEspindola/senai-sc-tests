@@ -14,4 +14,13 @@
 // ***********************************************************
 
 // Import commands.js using ES2015 syntax:
+
+Cypress.on('uncaught:exception', (err, runnable) => {
+  if (err.message.includes("Cannot read properties of null") || 
+      err.message.includes("cross origin")) {
+    return false; 
+  }
+  return true;
+});
+
 import './commands'

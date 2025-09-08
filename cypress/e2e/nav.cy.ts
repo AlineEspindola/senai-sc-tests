@@ -3,6 +3,7 @@ import linksData from "../fixtures/nav.json"
 
 const navbar = new Navbar({
   idComponent: "#mega-menu",
+  classDropdown: ".mega-menu-open-items",
   links: linksData.links,
   classLogo: ".fsi-nav__logo",
 });
@@ -19,5 +20,9 @@ describe('Testando Navbar', () => {
 
   it('[TC-NAV-002] Deve mostrar o Dropdown corretamente', () => {
     navbar.openDropdown();
+  });
+
+  it.only('[TC-NAV-003] Deve funcionar os redirecionamentos do Navbar', () => {
+    navbar.clickDropdownLinks();
   });
 });

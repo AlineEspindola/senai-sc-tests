@@ -1,7 +1,8 @@
+import { TextSelector } from "../../types/selectors.types";
 import { IBaseComponent } from "../BaseComponent.Interface";
 
 export interface INavbar extends IBaseComponent {
-  linksMain: string[];
+  linksMain: TextSelector[];
 
   openDropdown(): void;
 }

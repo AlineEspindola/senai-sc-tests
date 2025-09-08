@@ -1,17 +1,18 @@
+import { ClassSelector, IdSelector, TextSelector } from "../../types/selectors.types";
 import { INavbar } from "./Navbar.interface";
 class Navbar implements INavbar {
-  idComponent: string;
-  linksMain: string[];
-  classLogo: string;
+  idComponent: IdSelector;
+  linksMain: TextSelector[];
+  classLogo: ClassSelector;
 
   constructor({
     idComponent,
     linksMain,
     classLogo,
   }: {
-    idComponent: string;
-    linksMain: string[];
-    classLogo: string;
+    idComponent: IdSelector;
+    linksMain: TextSelector[];
+    classLogo: ClassSelector;
   }) {
     this.idComponent = idComponent;
     this.linksMain = linksMain;

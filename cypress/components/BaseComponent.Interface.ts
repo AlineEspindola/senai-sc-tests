@@ -1,5 +1,7 @@
+import { IdSelector } from "../types/selectors.types";
+
 export interface IBaseComponent {
-  idComponent: string;
+  idComponent: IdSelector;
   
   checkVisible(): void;
 }

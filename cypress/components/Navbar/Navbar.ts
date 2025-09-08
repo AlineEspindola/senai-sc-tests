@@ -13,7 +13,7 @@ class Navbar implements INavbar {
 
   openDropdown() {
     this.linksMain.forEach((link) => {
-      cy.contains(this.idComponent, link).click();
+      cy.get(this.idComponent).contains(link).click();
     });
   }
 }

@@ -1,9 +1,66 @@
 {
-  "linksMain": [
-    "Institucional",
-    "Para você",
-    "Para empresas",
-    "Já sou aluno",
-    "Transparência"
+  "links": [
+    {
+      "label": "Institucional",
+      "submenu": [
+        "Sobre o SENAI",
+        "Nossas unidades",
+        "Conselho Regional e Diretoria Executiva",
+        "Imprensa",
+        "Trabalhe Conosco",
+        "Portal do Fornecedor",
+        "Descontos, Bolsas e Financiamentos",
+        "Compliance",
+        "Politica de Privacidade",
+        "Intranet"
+      ]
+    },
+    {
+      "label": "Para você",
+      "submenu": [
+        "Educação Profissional",
+        "Cursos Técnicos",
+        "Cursos Profissionais",
+        "Aprendizagem Industrial",
+        "Ensino Superior",
+        "Graduação",
+        "Pós-Graduação",
+        "Extensão"
+      ]
+    },
+    {
+      "label": "Para empresas",
+      "submenu": [
+        "Educação Corporativa",
+        "Qualificação e Aperfeiçoamento",
+        "Aprendizagem Industrial",
+        "Cursos Técnicos Indústria",
+        "Escola Móvel",
+        "Inovação e Tecnologia",
+        "Novos produtos e negócios",
+        "Eficiência Operacional",
+        "Sustentabilidade",
+        "Qualidade e Conformidade",
+        "Formação de Talentos"
+      ]
+    },
+    {
+      "label": "Já sou aluno",
+      "submenu": [
+        "Espaço do Estudante",
+        "SENAI + Carreira",
+        "Ambiente Virtual de Aprendizagem (AVA)",
+        "Programa SENAI de Ações Inclusivas (PSSAI)",
+        "Rede de Bibliotecas",
+        "Editais Gratuidade",
+        "Consulta de Diploma",
+        "Carteirinha de Estudante",
+        "Validador de documentos"
+      ]
+    },
+    {
+      "label": "Transparência",
+      "submenu": ["Transparência SENAI", "Prestação de Contas TCU"]
+    }
   ]
 }

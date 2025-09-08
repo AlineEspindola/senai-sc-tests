@@ -3,7 +3,7 @@ import linksData from "../fixtures/nav.json"
 
 const navbar = new Navbar({
   idComponent: "#mega-menu",
-  linksMain: linksData.linksMain,
+  links: linksData.links,
   classLogo: ".fsi-nav__logo",
 });
 
